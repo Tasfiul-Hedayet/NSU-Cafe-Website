@@ -16,6 +16,7 @@ function HomePage(){
             <p></p>
 
             <h1>Welcome to NSU Cafe Digitaliztion system </h1>
+            
             <div className = "logo">
             <Image src = "/restaurant.jpg" width={300} height={200} />
             </div>
