@@ -6,6 +6,7 @@ const admin = () => {
     <div>admin</div>
     <p>
     Welcome to Admin Page 
+    
     </p>
     <h3>
         Feedback
