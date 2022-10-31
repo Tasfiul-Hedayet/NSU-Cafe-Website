@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const payment = () => {
+function payment () {
   return (
     <>
     <h1>Subscription </h1>

@@ -1,6 +1,6 @@
 
 
-const admin = () => {
+function admin () {
   return (
     <>
     <div>admin</div>
