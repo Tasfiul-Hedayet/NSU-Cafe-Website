@@ -51,14 +51,6 @@ https://www.youtube.com/watch?v=cyFjuowEWQg
 
 
 
-
-
-
-
-
-
-
-
 //Project Update
 1. Header and Footer
 2. Message
