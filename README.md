@@ -43,3 +43,30 @@ naming convertion -
 
 //to add style in js file
 classname={styles.name_of_style_from_css}
+
+//creating header and footer
+https://github.com/SpeedCodeWithMoksh/NextJs-Course
+https://www.youtube.com/watch?v=cyFjuowEWQg
+
+
+
+
+
+
+
+
+
+
+
+
+//Project Update
+1. Header and Footer
+2. Message
+3. Catagory (JS done)
+
+
+// Due
+1. Api
+2. Superbase/Backend
+3. Payment
+4. Subscription Model (Create Image)

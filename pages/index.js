@@ -6,14 +6,13 @@ function HomePage(){
     return (
         <>
          {/* link with home page  */}
-            <a href="/category">Category Page</a>
-            <p></p>
-            <a href="/feedback">Feedback Page</a>
-            <p></p>
-            <a href="/payment">Payment Page</a>
-            <p></p>
-            <a href="/admin">Admin Page</a>
-            <p></p>
+            <a href="/category">Category </a>
+            <a href="/feedback"> Feedback </a>
+            
+            <a href="/payment"> Payment </a>
+           
+            <a href="/admin"> Admin </a>
+          
 
             <h1>Welcome to NSU Cafe Digitaliztion system </h1>
             
