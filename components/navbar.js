@@ -3,7 +3,7 @@ import Header from './Header'
 
 import Footer from './Footer'
 
-function layout () {
+function navbar () {
   return (
     <> 
 <nav className='shadow-md flex flex-wrap justify-center items-center p-4 mb-10 sticky top-0 z-50 bg-white'>
@@ -18,4 +18,4 @@ function layout () {
   )
 }
 
-export default layout
+export default navbar;

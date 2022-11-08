@@ -1,4 +1,17 @@
+import 'tailwindcss/base';
 
+import './nprogress.css';
+import './base.css';
+import './scrollbar.css';
+import './fast-image-zoom.css';
+import './grid.css';
+import './anchor.css';
+import './prism.css';
+import './gif.css';
+import './giscus.css';
+
+import 'tailwindcss/components';
+import 'tailwindcss/utilities';
 import Image from 'next/image';
 
 
