@@ -1,25 +1,7 @@
-const bundleAnalyzer = require('@next/bundle-analyzer')
-
-const withBundleAnalyzer = bundleAnalyzer({
-	enabled: process.env.ANALYZE === 'true',
-})
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-	experimental: {
-		esmExternals: true,
-	},
-	webpack: (config, options) => {
-		config.module.rules.push({
-			test: /\.svg$/,
-			use: ['@svgr/webpack', 'url-loader'],
-		})
-		
-		if (!options.isServer) {
-			config.resolve.fallback.fs = false
-		}
-
-		return config
-	},
+  reactStrictMode: true,
+  swcMinify: true,
 }
 
-module.exports = withBundleAnalyzer(nextConfig)
+module.exports = nextConfig
