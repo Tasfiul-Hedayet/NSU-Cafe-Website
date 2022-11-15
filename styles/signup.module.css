@@ -1,0 +1,32 @@
+
+
+.header{
+    text-align: center;
+    color: rgb(227, 17, 17);
+    background-color: black;
+}
+
+.h2{
+    color: rgb(207, 142, 43);
+    text-align: center;
+}
+
+.form{
+    text-align: center;
+    color: black;
+}
+
+.btn
+{
+    border-radius: 50%;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
+}

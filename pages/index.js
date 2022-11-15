@@ -11,7 +11,10 @@ function HomePage(){
             
             <a href="/payment"> Payment </a>
            
-            <a href="/admin"> Admin </a>
+
+            <a href="/login"> Login </a>
+
+
           
 
             <h1>Welcome to NSU Cafe Digitaliztion system </h1>
