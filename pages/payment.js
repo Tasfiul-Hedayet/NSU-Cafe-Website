@@ -7,6 +7,7 @@ function payment () {
     <div className = "logo">
     <Image src = "/pay.jpg" width={300} height={200} />
     </div>
+    <button> <a href="/submit"> Purchase </a> </button>
     </>
     
   )

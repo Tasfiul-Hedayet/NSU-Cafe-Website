@@ -5,13 +5,10 @@ import Image from 'next/image';
 function HomePage(){
     return (
         <>
-         {/* link with home page  */}
-            <a href="/category">Category </a>
+            {/* link with home page  */}
+            <a href="/foodmenu">Foodmenu </a>
+            <a href="/payment"> Subscription </a>
             <a href="/feedback"> Feedback </a>
-            
-            <a href="/payment"> Payment </a>
-           
-
             <a href="/login"> Login </a>
 
 

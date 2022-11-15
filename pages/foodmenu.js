@@ -8,6 +8,12 @@ function foodmenu () {
   return (
     <>
 
+            <a href="/">Home </a>
+            <a href="/payment"> Subscription </a>
+            <a href="/feedback"> Feedback </a>
+            
+
+
     <h1> foodmenu </h1>
     <br/>
 

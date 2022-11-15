@@ -6,47 +6,34 @@ function Category(){
             <div className = "logo">
 
         {/* link with home page  */}
-            <a href="/">Home Page</a>
-            <p></p>
-            <a href="/feedback">Feedback Page</a>
+            <a href="/">Home </a>
+            <a href="/feedback"> Feedback </a>
+            <a href="/foodmenu"> foodmenu</a>
 
 
-            <h1>Food Menu</h1>
+
+            <h1>Snacks Menu</h1>
 
             <h3>See Category</h3>
 
-            <button className="btn p+20">Order</button>
-            <button className="btn p+20">Add [+]</button>
-            <Image src = "/kichuri.jpg" width={300} height={200} />
-            <p><b>kichuri</b></p>
-
-
-
-            <button className="btn p+20">Order</button>
-            <button className="btn p+20">Add [+]</button>
+    
             <Image src = "/cake.jpg" width={300} height={200} />
             <p><b>Cake</b></p>
-            
-
 
             <button className="btn p+20">Order</button>
             <button className="btn p+20">Add [+]</button>
-            <Image src = "/rice.jpg" width={300} height={200} />
-            <p><b>Rice</b></p>
-            
+            <br/>
+            <br/>
 
 
-            <button className="btn p+20">Order</button>
-            <button className="btn p+20">Add [+]</button>
-            <Image src = "/egg.jpg" width={300} height={200} />
-            <p><b>Egg Curry</b></p>
-
-
-
-            <button className="btn p+20">Order</button>
-            <button className="btn p+20">Add [+]</button>
             <Image src = "/water.jpg" width={300} height={200} />
             <p><b>Water</b></p>
+
+            <button className="btn p+20">Order</button>
+            <button className="btn p+20">Add [+]</button>
+            <br/>
+            <br/>
+
             </div>
         </>
       
