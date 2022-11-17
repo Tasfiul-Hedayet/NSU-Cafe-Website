@@ -38,7 +38,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 //creating new css file 
 
 naming convertion - 
-[].module.css
+name.module.css
+
+
+if you're creating a file for index page, the css file will be like this -
+example - index.module.css
 
 
 //to add style in js file

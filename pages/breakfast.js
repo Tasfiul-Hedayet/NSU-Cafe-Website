@@ -3,7 +3,8 @@ import Image from 'next/image'
 function Category(){
     return (
         <>
-            <div className = "logo">
+        
+        <div className = "logo">
 
         {/* link with home page  */}
             <a href="/">Home </a>
