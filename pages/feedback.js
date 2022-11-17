@@ -30,9 +30,10 @@ function Feedback() {
     <form action="/send-data-here" method="post">
 
     <label for="first">Write down your review:</label>
-
-    <p  className={styles.p1}>
-      <input type="text" id="first" name="first" /></p>
+    <br/>
+    <br/>
+    {/* row = height col = width*/}
+    <textarea rows = "8" cols = "40" name = "description"> </textarea>
 
     </form>
 
