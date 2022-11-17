@@ -44,15 +44,12 @@ name.module.css
 if you're creating a file for index page, the css file will be like this -
 example - index.module.css
 
-
 //to add style in js file
 classname={styles.name_of_style_from_css}
 
 //creating header and footer
 https://github.com/SpeedCodeWithMoksh/NextJs-Course
 https://www.youtube.com/watch?v=cyFjuowEWQg
-
-
 
 
 //Project Update
