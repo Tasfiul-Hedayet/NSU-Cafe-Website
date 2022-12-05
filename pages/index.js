@@ -15,6 +15,10 @@ function HomePage(){
             <h1> <i>Welcome to NSU Cafe Digitaliztion system </i></h1>
             </div>
             
+
+            <div className={styles.dev}>
+                <h2> Developed by team 2</h2>
+            </div>
             
             <div className = {styles.logo}>
             <Image src = "/restaurant.jpg" width={600} height={600} />
