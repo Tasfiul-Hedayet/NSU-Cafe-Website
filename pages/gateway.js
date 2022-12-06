@@ -1,8 +1,15 @@
 
 function gateway  () {
   return(
-    <div>gateway</div>
+    <>
+
+    <div>
+        <link href="/ptext">Next</link>
+    </div>
+
+    </>
     
+
   )
 }
 
