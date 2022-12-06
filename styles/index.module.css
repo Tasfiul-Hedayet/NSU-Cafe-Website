@@ -1,4 +1,11 @@
 
+
+.menu{
+    flex: content;
+    text-align: center;
+    color: rgb(20, 43, 35);
+}
+
 .name{
     text-align: center;
     color: rgb(18, 0, 0);

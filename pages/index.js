@@ -5,11 +5,15 @@ function HomePage(){
 
     return (
         <>
-            {/* link with home page  */}
+
+        <div className={styles.menu}>
+             {/* link with home page  */}
             <a href="/foodmenu">Foodmenu </a>
             <a href="/payment"> Subscription </a>
             <a href="/feedback"> Feedback </a>
             <a href="/login"> Login </a>
+
+        </div>
                 
             <div className={styles.name}>
             <h1> <i>Welcome to NSU Cafe Digitaliztion system </i></h1>
