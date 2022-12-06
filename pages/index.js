@@ -6,7 +6,7 @@ function HomePage(){
     return (
         <>
 
-        <div className={styles.menu}>
+        <div>
              {/* link with home page  */}
             <a href="/foodmenu">Foodmenu </a>
             <a href="/payment"> Subscription </a>
