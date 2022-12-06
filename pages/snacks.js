@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 function Category(){
     return (
@@ -20,7 +21,7 @@ function Category(){
             <Image src = "/cake.jpg" width={300} height={200} />
             <p><b>Cake</b></p>
 
-            <button className="btn p+20">Order</button>
+            <button className="btn p+20"><Link href="/gateway">Purchase</Link></button>
             <button className="btn p+20">Add [+]</button>
             <br/>
             <br/>
@@ -29,7 +30,7 @@ function Category(){
             <Image src = "/water.jpg" width={300} height={200} />
             <p><b>Water</b></p>
 
-            <button className="btn p+20">Order</button>
+            <button className="btn p+20"><Link href="/gateway">Purchase</Link></button>
             <button className="btn p+20">Add [+]</button>
             <br/>
             <br/>

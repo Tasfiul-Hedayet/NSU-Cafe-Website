@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import Image from 'next/image'
+
 
 function payment () {
   return (
@@ -7,8 +9,8 @@ function payment () {
     <div className = "logo">
     <Image src = "/pay.jpg" width={300} height={200} />
     </div>
-    <button> <a href="/submit"> Purchase </a> </button>
-    <link href='/gateway'>Next</link>
+    <button> <Link href="/gateway">Purchase</Link></button>
+    
     </>
     
   )
