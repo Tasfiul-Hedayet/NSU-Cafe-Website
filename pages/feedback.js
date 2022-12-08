@@ -1,54 +1,50 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/feedback.module.css";
-
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function Feedback() {
   return (
     <>
+      <Navbar />
+      {/* image part */}
 
-    {/* image part */}
+      <div className={styles.logo}>
+        <Image src="/feedback.png" width={200} height={100} />
+      </div>
 
-    <div className = {styles.logo}>
-    <Image src = "/feedback.png" width={200} height={100} />
-    </div>
+      {/* Page tile */}
+      <div className={styles.title}>
+        {" "}
+        <h1>Feedback form</h1>
+      </div>
 
+      {/* drop down */}
 
-    {/* Page tile */}
-    <div className={styles.title}> <h1>Feedback form</h1></div>
-   
+      {/* text box section */}
+      <div className={styles.box}>
+        <form action="/send-data-here" method="post">
+          <label for="first">Write down your review:</label>
+          <br />
+          <br />
+          {/* row = height col = width*/}
+          <textarea rows="8" cols="40" name="description">
+            {" "}
+          </textarea>
+        </form>
+      </div>
 
-
-    {/* drop down */}
-   
-
-
-
-
-    {/* text box section */}
-
-    <form action="/send-data-here" method="post">
-
-    <label for="first">Write down your review:</label>
-    <br/>
-    <br/>
-    {/* row = height col = width*/}
-    <textarea rows = "8" cols = "40" name = "description"> </textarea>
-
-    </form>
-
-
-
-    {/* submit button section */}
-    <div>
-      
-    <button className="btn p+20"> <Link href="/message">Submit</Link> </button>
-    
-    </div>
-
-
+      {/* submit button section */}
+      <div>
+        <button className="btn p+20">
+          {" "}
+          <Link href="/message">Submit</Link>{" "}
+        </button>
+      </div>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default Feedback
+export default Feedback;

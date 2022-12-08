@@ -1,17 +1,19 @@
 import Link from "next/link";
-function ptext  () {
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+function ptext() {
   return (
     <>
-    <div>
-        Your payment is successful. 
-        Thank you.
-    </div>
-    <div>
-       <button><Link href="/"> Return to Home</Link> </button>
-    </div>
+    <Navbar/>
+      <div>Your payment is successful. Thank you.</div>
+      <div>
+        <button>
+          <Link href="/"> Return to Home</Link>{" "}
+        </button>
+      </div>
+      <Footer/>
     </>
-    
-  )
+  );
 }
 
-export default ptext
+export default ptext;

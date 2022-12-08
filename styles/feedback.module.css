@@ -1,12 +1,17 @@
-
-.logo{  
-        text-align: center;
-
+.box {
+  display: flex;
+  justify-content: center;
+  border: #21210382;
+  box-shadow: #21210382;
 }
 
-.title{
-    text-align: justify;
-    color: #a1a11d82;
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
-
+.title {
+  display: flex;
+  justify-content: center;
+  color: #a1a11d82;
+}

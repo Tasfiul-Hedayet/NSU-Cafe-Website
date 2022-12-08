@@ -1,23 +1,21 @@
+import Link from "next/link";
 
-
-
-function submit () {
+function submit() {
   return (
     <>
-        <p>
+      <p>
+        Thank you for purchasing. Welcome to our community. We are happy to have
+        you.
+      </p>
 
-        Thank you for purchasing. Welcome to our community. We are happy to have you.
-         
-        </p>
+      <h4> [Team NSU CAFE] </h4>
 
-        <h4>   [Team NSU CAFE] </h4>
-
-        <button> <a href="/"> Return </a> </button>
-
+      <button>
+        {" "}
+        <Link href="/index"> Return </Link>{" "}
+      </button>
     </>
-
-
-  )
+  );
 }
 
-export default submit
+export default submit;

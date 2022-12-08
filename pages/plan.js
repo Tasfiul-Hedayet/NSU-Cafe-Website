@@ -1,9 +1,5 @@
-
-
-function plan(){
-  return (
-    <div>plan</div>
-  )
+function plan() {
+  return <div>plan</div>;
 }
 
-export default plan
+export default plan;

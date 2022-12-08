@@ -1,29 +1,28 @@
-
 import Link from "next/link";
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
-
-function gateway  () {
-  return(
+function gateway() {
+  return (
     <>
-    <form action="/send-data-here" method="post">
+    <Navbar/>
+      <form action="/send-data-here" method="post">
+        <label for="CardNo">Enter Card Number</label>
+        <input type="text" />
+        <br />
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </form>
 
-    <label for="CardNo">Enter Card Number</label>
-    <input type="text"/>
-    <br/>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required />
-    </form>
-
-
-
-    <div>
-    <button> <Link href="/ptext"> Next</Link></button>
-    </div>
-
-  
-
+      <div>
+        <button>
+          {" "}
+          <Link href="/ptext"> Next</Link>
+        </button>
+      </div>
+      <Footer/>
     </>
-  )
+  );
 }
 
-export default gateway
+export default gateway;

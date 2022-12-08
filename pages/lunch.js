@@ -1,15 +1,16 @@
 import Image from 'next/image'
 import Link from 'next/link';
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
 function Category(){
     return (
         <>
+        <Navbar/>
             <div className = "logo">
 
         {/* link with home page  */}
-            <a href="/">Home </a>
-            <a href="/feedback"> Feedback </a>
-            <a href="/foodmenu"> foodmenu</a>
+           
 
 
 
@@ -56,6 +57,7 @@ function Category(){
             <br/>
 
             </div>
+            <Footer/>
         </>
       
     )

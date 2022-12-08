@@ -1,38 +1,47 @@
 import styles from "../styles/foodmenu.module.css";
-import Link from "next/link"
-import Image from "next/image"
+import Link from "next/link";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Image from "next/image";
 
-
-
-function foodmenu () {
+function foodmenu() {
   return (
     <>
+      <Navbar />
+      <h1> foodmenu </h1>
+      <br />
+      <div className={styles.food}>
+        <br />
 
-            <a href="/">Home </a>
-            <a href="/payment"> Subscription </a>
-            <a href="/feedback"> Feedback </a>
-            
+        <button>
+          {" "}
+          <Link href="/breakfast">
+            {" "}
+            <Image src="/breakfast.jpg" width={200} height={250} />{" "}
+          </Link>{" "}
+          <h4>Breakfast</h4>
+        </button>
 
+        <button>
+          {" "}
+          <Link href="/lunch">
+            {" "}
+            <Image src="/lunch.jpg" width={200} height={200} /> <h4>Lunch</h4>
+          </Link>{" "}
+        </button>
 
-    <h1> foodmenu </h1>
-    <br/>
-
-    <div className={styles.food}>
-    
-    <br/>
-    <button > <a href="/breakfast"> <Image src = "/breakfast.jpg" width={300} height={200} />   </a> </button>
-    <h4>Breakfast</h4>
-
-    <button > <a href="/lunch"> <Image src = "/lunch.jpg" width={300} height={200} />   </a> </button>
-    <h4>Lunch</h4>
-
-    <button > <a href="/snacks"> <Image src = "/snacks.png" width={300} height={200} />   </a> </button>
-    <h4>Snacks</h4>
-
-    </div>
-
+        <button>
+          {" "}
+          <Link href="/snacks">
+            {" "}
+            <Image src="/snacks.png" width={200} height={200} />{" "}
+          </Link>{" "}
+          <h4>Snacks</h4>
+        </button>
+      </div>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default foodmenu
+export default foodmenu;
