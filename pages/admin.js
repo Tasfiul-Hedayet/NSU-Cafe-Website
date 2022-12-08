@@ -2,7 +2,7 @@ function admin() {
   return (
     <>
       <div>admin</div>
-      <p>Welcome to Admin Page</p>
+      <p> Welcome to Admin Page</p>
       <h3>Feedback Database payment Order</h3>
     </>
   );
