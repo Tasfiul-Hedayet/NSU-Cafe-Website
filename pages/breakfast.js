@@ -39,8 +39,7 @@ function Category() {
         <button className="btn p+20">Add [+]</button>
         <br />
         <br />
-
-        <Image src="/water.jpg" width={300} height={200} />
+        <Image src="/water.jpg"  width={300} height={200} />
         <p>
           <b>Water</b>
         </p>
