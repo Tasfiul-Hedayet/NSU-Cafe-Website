@@ -48,7 +48,7 @@ function Category() {
         <button className="btn p+20">
           <Link href="/gateway">Purchase</Link>
         </button>
-        <button className="btn p+20">Add [+]</button>
+        <button className="btn p+20"> Add [+]</button>
         <br />
         <br />
       </div>
