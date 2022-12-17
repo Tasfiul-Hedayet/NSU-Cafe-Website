@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/feedback.module.css";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Nav";
 import Footer from "../components/Footer";
 
 function Feedback() {
