@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/feedback.module.css";
-import Navbar from "../components/Nav";
-import Footer from "../components/Footer";
+import Navbar from "../Components/Nav";
+import Footer from "../Components/Footer";
 
 function Feedback() {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "../components/Nav"
-import Footer from "../components/Footer"
+import Navbar from "../Components/Nav"
+import Footer from "../Components/Footer"
 
 function Category() {
   return (
