@@ -63,3 +63,7 @@ https://www.youtube.com/watch?v=cyFjuowEWQg
 2. Superbase/Backend
 3. Payment
 4. Subscription Model (Create Image)
+
+
+must run this line to git bash - 
+git config core.ignorecase false
