@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/login.module.css";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Nav"
 import Footer from "../components/Footer"
 
 function login() {

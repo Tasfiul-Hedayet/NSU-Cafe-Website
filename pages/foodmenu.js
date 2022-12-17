@@ -1,6 +1,6 @@
 import styles from "../styles/foodmenu.module.css";
 import Link from "next/link";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Nav";
 import Footer from "../components/Footer";
 import Image from "next/image";
 
