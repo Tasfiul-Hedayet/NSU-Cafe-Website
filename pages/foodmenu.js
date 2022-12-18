@@ -10,10 +10,11 @@ function foodmenu() {
       <Navbar />
       <h1> foodmenu </h1>
       <br />
-      <div className={styles.food}>
-        <br />
 
-        <button>
+
+      <div className={styles.container}>
+
+      <button>
           {" "}
           <Link href="/breakfast">
             {" "}
@@ -37,7 +38,8 @@ function foodmenu() {
             <Image src="/snacks.png" width={200} height={200} />{" "}
           </Link>{" "}
           <h4>Snacks</h4>
-        </button>
+        </button> 
+
       </div>
       <Footer />
     </>

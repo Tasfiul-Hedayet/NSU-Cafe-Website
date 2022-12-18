@@ -1,8 +1,8 @@
-.box {
+
+.title {
   display: flex;
   justify-content: center;
-  border: #21210382;
-  box-shadow: #21210382;
+  color: #a1a11d82;
 }
 
 .logo {
@@ -10,8 +10,26 @@
   justify-content: center;
 }
 
-.title {
+.box {
+  padding: 5px;
   display: flex;
   justify-content: center;
-  color: #a1a11d82;
 }
+
+.box textarea{
+  margin: 0%;
+  padding: 10px;
+  padding-top: 30px;
+  border: 1px solid rgb(12, 0, 0);
+  color: black;
+}
+
+.box button{
+  border: 1px solid rgb(12, 0, 0);
+}
+
+.box button:hover{
+
+  transform: scale(1.2);}
+
+

@@ -32,15 +32,18 @@ function Feedback() {
           <textarea rows="8" cols="40" name="description">
             {" "}
           </textarea>
+          <br />
+          <br />
+          <button className="button">
+          {" "}
+          <Link href="/message">Submit</Link>{" "}
+        </button>
         </form>
       </div>
 
       {/* submit button section */}
       <div>
-        <button className="btn p+20">
-          {" "}
-          <Link href="/message">Submit</Link>{" "}
-        </button>
+        
       </div>
       <Footer />
     </>
