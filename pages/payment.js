@@ -7,29 +7,35 @@ function payment() {
     <>
       <Navbar />
       <div className="main">
-        <div class="background">
-          <div class="auth-box">
-            <h2>Card Details</h2>
-            <div class="flex">
-              <p>First Name</p>
-              <input type="text" />
-              <p>Last Name</p>
-              <input type="text" />
+        <div className="background">
+          <div className="auth-box">
+            <div className="flex justify-center ...">
+              <h1><b>Card Details</b></h1>
+              <br />
+              <br />
             </div>
 
-            <div class="flex">
-              <p>Card No</p>
-              <input type="text" />
-              <p>CVV</p>
-              <input type="text" />
+            <div className="flex justify-center ">
+              <div className="input">
+                <p>
+                  First Name <input type="text" />
+                  Last Name <input type="text" />
+                </p>
+                <br />
+                <p>
+                  Card No <input type="text" />
+                  CVV <input type="text" />
+                </p>
+                <br />
+              </div>
             </div>
           </div>
         </div>
-        <div class="rounded-full border-2 hover:border-t-4">
-       <Link href="./">Go back</Link>  
+        <div className="rounded-full border-2 hover:border-t-4">
+          <Link href="./">Go back</Link>
         </div>
+      </div>
 
-</div>
       <Footer />
     </>
   );
