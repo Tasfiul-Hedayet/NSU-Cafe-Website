@@ -2,8 +2,25 @@ import Image from "next/image";
 import styles from "../styles/index.module.css";
 import Navbar from "../components/Nav";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
+import { useSupabaseClient } from "@supabase/auth-helpers-react";
+
 
 function HomePage() {
+
+  let supabase = useSupabaseClient();
+  async function get (){ 
+    let {data, error}=await supabase
+    .from("user")
+    .select("*");
+    console.log(data);
+  }
+   
+
+
+  useEffect(()=>{
+    get();
+  }, [])
   return (
     <>
       <Navbar />
