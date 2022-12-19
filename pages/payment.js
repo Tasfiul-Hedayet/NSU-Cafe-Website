@@ -6,12 +6,13 @@ import Footer from "../components/Footer";
 function payment() {
   return (
     <>
+    <div className={styles.bg}>
       <Navbar />
       <div className={styles.main}>
         <h1>Card Details</h1>
       </div>
 
-      <div className={styles.input}>
+      <div className={styles.form}>
       <p>First Name <input type="text" /></p>
       <p>Last Name <input type="text" /></p>
       <p>Card No <input type="text" /></p>
@@ -23,6 +24,12 @@ function payment() {
         <button>
           <Link href="/ptext">Pay</Link>
         </button>
+      </div>
+
+      <div className={styles.nav}>
+      <Footer />
+      </div>
+      
       </div>
     </>
   );

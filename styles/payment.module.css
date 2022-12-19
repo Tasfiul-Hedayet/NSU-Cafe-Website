@@ -1,7 +1,14 @@
+.bg{
+    padding: 0px 0px 200px 0px;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
 .main{
-    width: 100%;
-    height: 100%;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .main h1{
@@ -11,45 +18,71 @@
     font-size:x-large;
     color: rgb(243, 242, 242);
     background-color: black;
-    border: 1px solid rgb(255, 255, 255);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-.input{
+.main h1{
+    margin: 0px 0px 40px 0px;
+}
+
+.form{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: rgb(8, 0, 0);
-    box-sizing: border-box;
+    margin: 0px 0px 20px 0px;
 }
 
-.input p{
+.form{
+    margin: 10px 0px 20px 0px;
+    padding-left: 200px;
+}
+
+.form p{
     color: #ffffff;
 }
 
-.input p{
+.form p{
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid rgb(7, 0, 0);
+}
+
+
+.form input{
+    margin: 10px 10px 10px 10px;
+    color: black;
+    background-color: rgb(239, 232, 232);
 }
 
 .button{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .button button{
-    background-color: #e107c0;
+    background-color: #dc0489df;
     border-radius: 30%;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px 32px 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 0px 0px 20px 0px;
     cursor: pointer;
-   
 }
 
 .button:hover{
     transform: scale(1.2);
+}
+
+.nav{
+    padding-top: 150px;
+    padding-left: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
