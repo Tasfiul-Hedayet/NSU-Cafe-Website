@@ -5,9 +5,7 @@ import Footer from "../components/Footer";
 import { useEffect } from "react";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
 
-
 function HomePage() {
-
   return (
     <>
       <Navbar />
@@ -23,7 +21,7 @@ function HomePage() {
       <div className={styles.logo}>
         <Image src="/restaurant.jpg" width={600} height={600} />
       </div>
-
+      
       <Footer />
     </>
   );
