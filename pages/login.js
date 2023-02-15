@@ -1,35 +1,36 @@
 import Link from "next/link";
 import styles from "../styles/login.module.css";
-import Navbar from "../components/Nav"
-import Footer from "../components/Footer"
+import Navbar from "../components/Nav";
+import Footer from "../components/Footer";
 
 function login() {
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <h1 className={styles.header}>
-        {" "}
         Welcome to NSU Cafe Digitaliztion System
       </h1>
       <h2 className={styles.h2}> Login Page</h2>
+      <br />
 
       <div className={styles.form}>
-        <form action="/send-data-here" method="post">
-          <label for="email"> Email</label>
+        
+        <form>
+          <input
+           type="text" 
+           className={styles.inbox}
+           name="email"
+           placeholder="Email" />
           <br />
-
-          <input type="text" id="email" name="email" />
-          <br />
-
-          <label for="pswrd">Password</label>
           <br />
 
           <input
             type="password"
-            id="pswrd"
-            name="pswrd"
+            className={styles.inbox}
+            name="password"
             pattern="[a-z0-9]{1,15}"
             title="Password should be digits (0 to 9) or alphabets (a to z)."
+            placeholder="Password" 
           />
           <br />
           <br />
@@ -47,7 +48,7 @@ function login() {
           <Link href="/signup"> signup </Link>{" "}
         </button>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

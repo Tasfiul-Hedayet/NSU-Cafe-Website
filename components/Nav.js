@@ -7,7 +7,7 @@ function Navbar () {
         <ul className='flex'>
             <Link href='/'><li className='mx-3 cursor-pointer'>Home</li></Link>
             <Link href='/foodmenu'><li className='mx-3 cursor-pointer'>Foodmenu</li></Link>
-            <Link href='/payment'><li className='mx-3 cursor-pointer'>Payment</li></Link>
+            {/* <Link href='/payment'><li className='mx-3 cursor-pointer'>Payment</li></Link> */}
             <Link href='/feedback'><li className='mx-3 cursor-pointer'>Feedback</li></Link>
             <Link href='/login'><li className='mx-3 cursor-pointer'>Login</li></Link>
         </ul>
