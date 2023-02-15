@@ -1,30 +1,30 @@
 import Link from "next/link";
 import styles from "../styles/login.module.css";
-import Navbar from "../components/Nav"
-import Footer from "../components/Footer"
+import Navbar from "../components/Nav";
+import Footer from "../components/Footer";
 
 function signup() {
   return (
     <>
-     <Navbar/>
+      <Navbar />
       <h1 className={styles.header}>
         {" "}
         Welcome to NSU Cafe Digitaliztion System
       </h1>
-      <h2 className={styles.h2}> Login Page</h2>
+      <h2 className={styles.h2}> Register </h2>
 
       <div className={styles.form}>
         <form action="/send-data-here" method="post">
           <label for="name"> Name</label>
           <br />
 
-          <input type="text" id="first" name="first" />
+          <input type="text" className={styles.inbox} name="first" />
           <br />
 
           <label for="email"> Email</label>
           <br />
 
-          <input type="text" id="email" name="email" />
+          <input type="text" className={styles.inbox} name="email" />
           <br />
 
           <label for="pswrd">Password</label>
@@ -32,7 +32,19 @@ function signup() {
 
           <input
             type="password"
-            id="pswrd"
+            className={styles.inbox}
+            name="pswrd"
+            pattern="[a-z0-9]{1,15}"
+            title="Password should be digits (0 to 9) or alphabets (a to z)."
+          />
+          <br />
+          
+          <label for="pswrd">Confirm Password</label>
+          <br />
+
+          <input
+            type="password"
+            className={styles.inbox}
             name="pswrd"
             pattern="[a-z0-9]{1,15}"
             title="Password should be digits (0 to 9) or alphabets (a to z)."
@@ -46,7 +58,7 @@ function signup() {
           <Link href="/login"> signup </Link>{" "}
         </button>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
