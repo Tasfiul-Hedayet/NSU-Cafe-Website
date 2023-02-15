@@ -11,6 +11,7 @@ function signup() {
         {" "}
         Welcome to NSU Cafe Digitaliztion System
       </h1>
+      <br />
       <h2 className={styles.h2}> Register </h2>
       <br />
 

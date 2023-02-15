@@ -10,6 +10,7 @@ function login() {
       <h1 className={styles.header}>
         Welcome to NSU Cafe Digitaliztion System
       </h1>
+      <br />
       <h2 className={styles.h2}> Login Page</h2>
       <br />
 
