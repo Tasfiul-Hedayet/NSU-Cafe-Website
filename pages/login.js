@@ -41,9 +41,10 @@ function login() {
           {" "}
           <Link href="/foodmenu"> login </Link>{" "}
         </button>
-
+        <br />
+        <br />
         <p>{"Don't have account? SignUp now"}</p>
-
+        <br />
         <button className={styles.btn}>
           {" "}
           <Link href="/signup"> signup </Link>{" "}
