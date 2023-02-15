@@ -1,25 +1,22 @@
-import styles from "../styles/foodmenu.module.css";
+import styles from "../styles/food.module.css";
 import Link from "next/link";
 import Navbar from "../components/Nav";
 import Footer from "../components/Footer";
 import Image from "next/image";
 
-function foodmenu() {
+function Food() {
   return (
     <>
       <Navbar />
-      <h1> foodmenu </h1>
-      <br />
-
       <div className={styles.container}>
+      <h1> Food Menu </h1>
+        <br />
         <button>
           {" "}
           <Link href="/breakfast">
             {" "}
-            <Image src="/breakfast.jpg" width={200} height={250} />{" "}
-            Breakfast
+            <Image src="/breakfast.jpg" width={200} height={250} /> Breakfast
           </Link>{" "}
-          
         </button>
 
         <button>
@@ -44,4 +41,4 @@ function foodmenu() {
   );
 }
 
-export default foodmenu;
+export default Food;

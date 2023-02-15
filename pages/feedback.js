@@ -24,7 +24,7 @@ function Feedback() {
 
       {/* text box section */}
       <div className={styles.box}>
-        <form action="/send-data-here" method="post">
+        <form>
           <label for="first">Write down your review:</label>
           <br />
           <br />
