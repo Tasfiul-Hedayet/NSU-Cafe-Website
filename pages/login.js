@@ -39,7 +39,7 @@ function login() {
 
         <button className={styles.btn}>
           {" "}
-          {/* <Link href="/foodmenu"> login </Link>{" "} */}
+           login
         </button>
         <br />
         <br />
